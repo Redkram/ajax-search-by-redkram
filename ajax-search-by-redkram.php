@@ -26,8 +26,6 @@
 
 if (!defined('ABSPATH')) exit; // Exit if accessed directly
 
-//Needs to be after woocommerce has initiated but before posts_search filter has run..
-//add_filter('init', 'ajaxsearch_init', 11);
 add_action( 'get_footer', 'ajaxsearch_init', 1);
 function ajaxsearch_init()
 {
