@@ -1,0 +1,183 @@
+.normal-search .search-form .search-field {
+    position: relative;
+}
+i.fa-spinner {
+    display:block;
+    position:absolute;
+    top: 30px;
+    right: 40%;
+    font-size: 18px;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+.alertUP {
+    display: block;
+    position: absolute;
+    width: 465px;
+    left: 0px;
+    top: 60px;
+    padding: 3px;
+    z-index: 9999;
+    height: 48px;
+    background: #f9f9f9;
+    border-radius: 25px;
+    border: 1px solid #e6e6e6;
+    font-size: 0.8rem;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.41);
+    box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.41);
+}
+.alertUP p {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.alertUP a {
+    display: inline-block;
+    //color:#000;
+    font-weight: 700;
+    padding: 3px 5px;
+    cursor: pointer;
+    margin: 3px;
+}
+.alertUP a.newL {
+
+}
+.alertUP > i {
+    display:block;
+    position: absolute;
+    top: 5px;
+    right: 12px;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+div.ajaxResults {
+    display: block;
+    position: absolute;
+    z-index: 9998;
+    top: 70px;
+    left: 0;
+    width: 600px;
+    height: 608px;
+    overflow: hidden;
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.41);
+    box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.41);
+}
+ul.ajaxResultsUL {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 300px;
+    bottom: 20px;
+    left: 0;
+    overflow-x: auto;
+    padding:0;
+    margin:0;
+}
+li.ajaxResultsLI {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    border-bottom: 1px solid #efefef;
+    padding:10px;
+    margin:0;
+}
+li.ajaxResultsLI:hover {
+     background: #efefef;
+ }
+img.redLiImg {
+    display: block;
+    width: 25%;
+    /*padding: 2%;*/
+    float: left;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+}
+h3.redLih3 {
+    display:block;
+    width: 70%;
+    float: right;
+    font-size: 12px;
+    margin-top: 5px;
+    clear: none;
+}
+li.ajaxResultsLI p {
+    display:block;
+    width: 70%;
+    float: right;
+    font-size: 11px;
+    margin-top: 5px;
+}
+li.ajaxResultsLI span {
+    display: block;
+    margin-top: 5px;
+    width: 70%;
+    float: right;
+    font-size: 11px;
+    text-align: left;
+}
+div.ajaxDetails {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 300px;
+    padding: 10px;
+    overflow: hidden;
+    border-left: 1px solid #eaeaea;
+}
+div.micro-product-card {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    overflow-x: auto;
+}
+img.images {
+    display: block;
+    width: 150px;
+    margin: 5px auto;
+}
+div.ajaxDetail h3 {
+    display:block;
+    margin-bottom: 5px;
+}
+div.ajaxDetail p {
+    display:block;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+div.ajaxDetail span {
+    display: inline-block;
+    margin: 3px;
+    font-size: 12px;
+}
+
+a.ajaxAllProducts {
+    display: block;
+    position: absolute;
+    right: 50%; bottom: 0; left: 0;
+    height: 20px;
+    font-size: 12px;
+    color: #666;
+    border-top:1px solid #eaeaea;
+    padding-left: 20px;
+    text-align: center;
+}
+.ocult {
+    display: none !important;
+}
