@@ -1,14 +1,23 @@
 # ajax-search-by-redkram
 
 === Ajax Search by SKU and + for Woocommerce ===
+
 Contributors: redkram
+
 Tags: search, sku, stock keeping unit, woocommerce, ecommerce, e-commerce, commerce, woothemes, wordpress ecommerce
+
 Requires at least: 3.0.1
+
 Tested up to: 5.4
+
 Requires PHP: 5.2.4
+
 Stable tag: 0.0.1
+
 License: GPLv3
+
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
 
 Extend the search functionality of woocommerce to include searching of sku
 
